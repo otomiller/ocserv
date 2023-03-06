@@ -63,7 +63,7 @@ no-route = 192.168.5.0/255.255.255.0
 cisco-client-compat = true
 ```
 
-In case of Masuerading, maybe this commands will help you
+In case of Masquerading, maybe this commands will help you
 ```
 echo "net.ipv4.ip_forward = 1" | sudo tee /etc/sysctl.d/60-custom.conf
 echo "net.core.default_qdisc=fq" | sudo tee -a /etc/sysctl.d/60-custom.conf
