@@ -100,4 +100,5 @@ tail -f /var/log/messages
 * https://help.okta.com/en-us/Content/Topics/integrations/Agent_Installing_the_Okta_Radius_Agent.htm
 * https://help.okta.com/en-us/Content/Topics/integrations/Agent_install_windows-config.htm
 * https://help.okta.com/en-us/Content/Topics/integrations/cisco-radius-intg-test.htm
+* https://help.okta.com/en-us/Content/Topics/Directory/Directory_AD_Field_Mappings.htm
 
