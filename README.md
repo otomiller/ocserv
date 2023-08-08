@@ -16,14 +16,38 @@ systemctl status ocserv
 
 Generate Certificate
 ```
-mkdir /var/www/ocserv
-chown www-data:www-data /var/www/ocserv -R
+mkdir -p /var/www/ocserv
+chown ocserv:ocserv /var/www/ocserv -R
 certbot certonly --webroot --agree-tos --email you@exmaple.com -d vpn.example.com -w /var/www/ocserv
 ```
 
 Choose Authentication Method
 ```
 PAM, Authentication File, RADIUS, etc
+```
+Authentication File Example
+```
+auth = "plain[/etc/ocserv/ocpasswd]"
+```
+Add New Local User
+```
+ocpasswd -c /etc/ocserv/ocpasswd username
+```
+
+Lock User
+```
+ocpasswd -c /etc/ocserv/ocpasswd -l username
+```
+
+Unlock User
+
+```
+ocpasswd -c /etc/ocserv/ocpasswd -u username
+```
+
+Delete User
+```
+ocpasswd -c /etc/ocserv/ocpasswd -d username
 ```
 
 Important Parameters
