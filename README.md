@@ -1,6 +1,6 @@
 # ocserv
 
-## Install on Rocky, Tested on Rocky 9.1
+## Install on Rocky, Tested on Rocky 9.2
 
 
 Install Ocserv
