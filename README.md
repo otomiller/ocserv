@@ -1,4 +1,5 @@
 # ocserv
+[How ocserv Works](https://ocserv.gitlab.io/www/technical.html)
 
 ## Install on Rocky, Tested on Rocky 9.2
 
